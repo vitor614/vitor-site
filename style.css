@@ -1,0 +1,75 @@
+
+body {/*Estilo do corpo da pagina */
+font-family: Arial, sans-serif;/*Define a fonte do texto */
+margin:0;/*Remove margem externa */
+padding: 0; /* Remove preenchimento interno */
+background-color:#f2f2f2;/* Define a cor de fundo do site */
+overflow: hidden;
+}
+
+.capa img {
+
+   height: 850px;
+   width: 100%;
+   height: 800px;
+   
+}
+
+header {/* Estilo do cabeçalho */
+background-color:#51d1d1ee; /*cor de fundo verde */
+color:white; /* Cor do texto branca */
+padding:20px; /* Espaço interno */
+text-align:center; /* Centraliza o texto */
+}
+
+
+nav {/*Estilo da barra de navegação */
+background-color:#333;/* Cor de fundo cinza escuro */
+padding:10px;/* Espaço interno */
+text-align:center;/* Centraliza os links */
+}
+   
+
+nav a { /* Estilo dos links de navegação */
+color:white; /* Cor do texto branco */
+margin: 0 15px; /* Espaço entre os links */
+ text-decoration: none; /* Remove o sublinhado */
+}
+
+nav a:hover { /* Efeito ao passar o mouse sobre o link */
+ text-decoration: underline; /* Adiciona sublinhado */
+}
+
+ main {/* Estilo da área principal de conteúdo */
+padding:20px; /*Espaço interno */
+ }
+
+ footer { /* Estilo do rodapé */
+    background-color: #222; /* Cor de fundo escura */
+    color:white; /* Texto branco */
+    text-align: center; /* Centraliza o texto */
+    padding:10px; /* Espaço interno */
+    position: fixed;/* Fixa no final da tela*/
+    bottom:0;/* Cola no rodapé*/
+    width: 100%; /* Ocupa toda a largura */
+ }
+ 
+   .texto{
+   
+      font-size: 25px;
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+      
+ }
+   .titulo{
+      font-size: 24px;
+      font-family: 'Times New Roman', Times, serif;
+     font-weight: bold;
+     
+   }
+
+   .tudo{
+      display:flex;
+      gap: 10px;
+      padding: 20px;
+   }
